@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<h1>recently discovered planets</h1>
+
+<ul>
+    {% for post in site.categories.recently-discovered limit:5 %}
+
+    <li>
+        <a href="">{{post.title}}</a>
+        <p>{{post.meta}}</p>
+
+
+    </li>
+
+    {% endfor %}
+</ul>    
+

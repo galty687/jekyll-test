@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>My first styled page</title>
+    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Planets of the Universe</h1>
+        {% include nav.html navclass='nav-top' %}
+    </header>
+   
+    {{content}}
+
+
+    <footer>
+       <p>Footer</p>
+       {% include nav.html navclass='nav-bottom' %}
+       Copyright@Zhijun
+
+    </footer>
+
+
+</body>
+</html>

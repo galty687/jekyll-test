@@ -5,9 +5,19 @@
 
 
 
-# 新建 index.html
+## 新建 index.html
 
 
-# 运行Jekyll
+## 运行Jekyll
 
 jekyll serve --watch --baseurl ""
+
+
+_layouts 
+_includes share code snippets from different locations
+
+
+## Liquid模板语言
+
+{{content}}
+{{site.baseurl}}
